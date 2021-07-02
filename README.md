@@ -35,10 +35,15 @@ ln -s ~/.dotfiles/.zshrc ~/.zshrc
 
 4. Install Homebrew, followed by the software listed in the Brewfile.
 
-```zsh
+```bash
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Then pass in the Brewfile location...
 brew bundle --file ~/.dotfiles/Brewfile
+```
+
+## to update the Brewfile
+```bash
+brew bundle dump --describe
 ```
