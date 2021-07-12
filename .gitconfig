@@ -5,3 +5,8 @@
 	email = s.hansen@digital-h.de
 [core]
 	autocrlf = input
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status

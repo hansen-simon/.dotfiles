@@ -11,8 +11,7 @@ alias ls='ls -GFh'
 alias ll='ls -la' 
 ## copy own public ssh key
 alias copyssh='pbcopy < ~/.ssh/id_rsa.pub'
-# get last git tag
-alias lasttag='git describe --tags --abbrev=0'
+
 
 ## alias for get current absoute path
 alias getpath=' echo $(cd $(dirname "$1") && pwd -P)/$(basename "$1")'
@@ -30,6 +29,16 @@ alias nps='npm run start'
 alias npd='npm run dev'
 alias npl='npm run lint'
 alias nplf='npm run lint:fix'
+
+## alias for git
+alias lasttag='git describe --tags --abbrev=0'
+alias gitlasttag='lasttag'
+alias g='git'
+alias gs='git status'
+alias gp='git push'
+alias gco='git checkout'
+alias gci='git commit'
+alias gb='git branch'
 
 ## short docker commands
 alias stop-all-docker-container='docker stop $(docker ps -a -q)'
