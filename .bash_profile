@@ -3,6 +3,9 @@
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
+# set terminal encoding to utf8, important for gem/pods 
+export LC_ALL=en_US.UTF-8
+
 # flutter
 export PATH=$PATH:~/flutter/flutter/bin
 
@@ -122,7 +125,7 @@ if [ -f '/Users/simonhansen/google-cloud-sdk/completion.bash.inc' ]; then . '/Us
 
 
 export ANDROID_HOME=~/Library/Android/sdk
-JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
 export PATH=${PATH}:~/Library/Android/sdk:~/Library/Android/sdk/tools:~/Library/Android/sdk/platform-tools
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 
