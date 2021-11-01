@@ -87,6 +87,9 @@ alias cd7="cd......."
 alias rmnpm="rm package-lock.json && rm -rf node_modules"
 alias rmnpmi="rmnpm && npm install"
 
+#alias to start common apps
+alias chrome='open -a "Google Chrome"'
+
 # mysql terminal commands
 export PATH=/usr/local/mysql/bin:$PATH
 
