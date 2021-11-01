@@ -1,12 +1,9 @@
-tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "wix/brew"
-# Engine for large-scale data processing
-brew "apache-spark"
 # Automatic configure script builder
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
@@ -31,16 +28,10 @@ brew "cairo"
 brew "coreutils"
 # Top-like interface for container metrics
 brew "ctop"
-# Secure runtime for JavaScript and TypeScript
-brew "deno"
 # Generic library support script
 brew "libtool"
 # Manage compile and link flags for libraries
 brew "pkg-config"
-# HTTP/2 C Library
-brew "nghttp2"
-# OpenType text shaping engine
-brew "harfbuzz"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # GitHub command-line tool
@@ -75,20 +66,12 @@ brew "minikube"
 brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
-# Platform built on V8 to build network applications
-brew "node", link: false
-# Password manager
-brew "pass"
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
-# JVM-based programming language
-brew "scala"
 # Create beautiful image of your source code
 brew "silicon"
-# Tool to create intelligent and beautiful documentation
-brew "sphinx-doc"
 # User interface to the TELNET protocol
 brew "telnet"
 # Watch files and take action when they change
@@ -101,8 +84,6 @@ brew "xclip"
 brew "yarn"
 # General-purpose lossless data-compression library
 brew "zlib"
-# Everything you need to get started with Heroku
-brew "heroku/brew/heroku"
 # Apple simulator utilities
 brew "wix/brew/applesimutils"
 # Apple TV Aerial screensaver
