@@ -111,3 +111,7 @@ if [ -f '/Users/simonhansen/google-cloud-sdk/completion.zsh.inc' ]; then . '/Use
 
 # show full path in terminal prompt
 PROMPT='%(?:%{%}>:%{%}> ) %{$fg[cyan]%}%d%{$reset_color%} $(git_prompt_info)'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
