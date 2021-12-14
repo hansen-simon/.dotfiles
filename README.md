@@ -30,6 +30,7 @@ ln -s ~/.dotfiles/.git-completion.bash ~/.git-completion.bash
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.profile ~/.profile
 ```
 
 
